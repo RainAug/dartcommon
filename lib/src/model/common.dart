@@ -1,0 +1,15 @@
+  final int softwareVersion = 31;
+  final String language = '17';
+  final int languageId = 0;
+  final String deviceOSType = 'ios';
+  final String deviceOSVersion = null;
+  final String deviceType = 'iPhone';
+  final String chipType = null;
+  final String manufacturer = null;
+  final String channel = 'TLKG70';
+  final int areaCode = 0;
+  final int platform = 0;
+  final String osSdkVersion = '11.3.1';
+  String imei;
+  final int sdkVersion = 0;
+  String uid;
