@@ -15,7 +15,7 @@ String _allSettingVersionFile;
 
 /// 初始化Setting服务
 Future<bool> init(String appRootFolder, {int softwareVersion, String language, int languageId, String deviceOSType, String deviceOSVersion, String deviceType, String chipType, String manufacturer, String channel, int areaCode, int platform, String osSdkVersion, String imei, int sdkVersion, String uid}) async {
-  //初始化comon信息
+  //初始化comon信息 
   Map<String,Object> _common = new  Map<String,Object>();
   _common["softwareVersion"] = softwareVersion ?? Common.softwareVersion; // int
   _common["language"] = language ?? Common.language;
