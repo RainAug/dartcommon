@@ -1,4 +1,4 @@
-import 'package:allsetting/allsetting/language/language.dart' as Language;
+import 'package:dartcommon/allsetting/language/language.dart' as Language;
 
 Future<bool> init(Map configMap) async {
   List _languageSelectList;

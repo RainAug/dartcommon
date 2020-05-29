@@ -1,13 +1,13 @@
 import 'interfaces/interfaces.dart' as Interfaces;
 import 'servers/servers.dart' as Servers;
 import 'sysconfig/sysconfig.dart' as SysConfig;
-import 'package:allsetting/src/myfile.dart' as MyFile;
+import 'package:dartcommon/src/myfile.dart' as MyFile;
 import 'language/language.dart' as Language;
-import 'package:allsetting/src/global_context.dart' as GlobalContext;
+import 'package:dartcommon/src/global_context.dart' as GlobalContext;
 import 'dart:convert' as convert;
-import 'package:allsetting/util/HttpUtil.dart';
-import 'package:allsetting/config/interfaceConfig.dart' as InterfaceConfig;
-import 'package:allsetting/src/model/common.dart' as Common;
+import 'package:dartcommon/util/HttpUtil.dart';
+import 'package:dartcommon/config/interfaceConfig.dart' as InterfaceConfig;
+import 'package:dartcommon/src/model/common.dart' as Common;
 
 String _allSettingFile;
 String _allSettingFileBuiltIn;

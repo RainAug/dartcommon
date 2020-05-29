@@ -6,10 +6,12 @@ homepage: https://dart.dev/tools/pub/cmd/pub-lish
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
-dependencies:
+dependencies: 
   flutter:
     sdk: flutter
-
+  http: ^0.12.1
+  sqflite: ^1.2.0
+  path_provider: ^1.6.8
 dev_dependencies:
   flutter_test:
     sdk: flutter

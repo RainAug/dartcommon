@@ -1,5 +1,5 @@
-import 'package:allsetting/src/myfile.dart' as MyFile;
-import 'package:allsetting/src/global_context.dart' as GlobalContext;
+import 'package:dartcommon/src/myfile.dart' as MyFile;
+import 'package:dartcommon/src/global_context.dart' as GlobalContext;
 import 'dart:convert' as Convert;
 import '../../config/interfaceConfig.dart' as InterfaceConfig;
 import '../../util/HttpUtil.dart';
