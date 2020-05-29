@@ -1,10 +1,10 @@
 import 'package:http/http.dart' as Http;
-import 'package:allsetting/allsetting/servers/servers.dart' as Servers;
-import 'package:allsetting/allsetting/interfaces/interfaces.dart' as Interfaces;
-import 'package:allsetting/allsetting/language/language.dart' as language;
-import 'package:allsetting/src/global_context.dart' as global_context;
+import 'package:dartcommon/allsetting/servers/servers.dart' as Servers;
+import 'package:dartcommon/allsetting/interfaces/interfaces.dart' as Interfaces;
+import 'package:dartcommon/allsetting/language/language.dart' as language;
+import 'package:dartcommon/src/global_context.dart' as global_context;
 import 'dart:convert' as convert;
-import 'package:allsetting/util/tool.dart' as tool;
+import 'package:dartcommon/util/tool.dart' as tool;
 
 class HttpUtil{
   /*
